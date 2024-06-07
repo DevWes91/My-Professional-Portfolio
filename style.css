@@ -1,0 +1,68 @@
+:root {
+    --header: #064e55;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+header h1 {
+    text-align: center;
+    color: var(--header)
+}
+
+section h3 {
+    color: var(--header);
+    font-weight: bold;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#about-me p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section-title {
+    color: var(--header);
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 20px;
+    border-right: 5px solid var(--header);
+}
+
+
+.navbar a {
+    color: var(--header);
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(173,173,180,1) 0%, rgba(116,135,136,1) 71%);
+}
+
+
+
+
+
