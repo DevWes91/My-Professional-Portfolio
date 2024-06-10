@@ -1,19 +1,22 @@
+/* Defined the font family for the webpage, replacing the default defined by the user agent */
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* Defines colors to be re-used throughout the file */
 :root {
     --header-text: #ffffff;
     --header-bg: #202e4a;
 }
 
+/* Created linear gradient background */
 body {
-
     background: rgb(2,0,36);
     background: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(173,173,180,1) 0%, rgba(50,60,82,1) 71%);
     background-attachment: fixed;
 }
 
+/* Adjusted the space and padding for header as well as the flex display to create a more balanced aesthetic */
 header {
     display: flex;
     flex-direction: row;
@@ -24,6 +27,7 @@ header {
     background-color: #202e4a;
 }
 
+/* Adjusted text colors using variable defined in the :root element */
 header h1 {
     color: var(--header-text);
 }
@@ -37,6 +41,7 @@ h2 {
     color: var(--header-text);
 }
 
+/* Made the image links black & white by default and then color on hover for interactivity */
 img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -47,6 +52,7 @@ img:hover {
     -webkit-filter: grayscale(0);
 }
 
+/* Adjusted the alignment, padding and pixels of my avatar so that it would properly be centered and spaced and a smaller size to fit better on the page. */
 #about-me img {
     text-align: center;
     padding: 50px;
@@ -56,6 +62,7 @@ img:hover {
 
 }
 
+/* Adjusted line height for the about me paragraph to make it more aesthetic, used variable for color, and adjusted the alignment and flex display to center it properly on the page. */
 #about-me {
     line-height: 1.5;
     margin-bottom: 0;
@@ -74,11 +81,13 @@ img:hover {
     flex-wrap: wrap;
 }
 
+/* Adjusted margins to properly center the first image */
 #horiseon img {
     margin-left: 30%;
     margin-right: 30%;
 }
 
+/* Adjusted flex display and width and height values so as to make the first image displayed larger that the others and to properly position it */
 .my-work img {
     display: flex;
     flex-direction: row;
@@ -88,16 +97,12 @@ img:hover {
     border: 5px solid var(--header-bg)
 }
 
+/* Added a psuedo element so image titles change color when a user with a mouse hover over them */
 .my-work p:hover {
     color: #ffffff;
 }
 
-.site-nav h2 {
-    text-align: left;
-    margin: 20px;
-    color: var(--header-text);
-}
-
+/* Created larger margins for style and functionality; adjusted the flex display to properly center and align the items */
 #my-work {
     margin-top: 50px;
     display: flex;
@@ -107,6 +112,7 @@ img:hover {
     margin-bottom: 100px;
 }
 
+/* Adjusted the flex display for the <div> so that elements would be properly spaced and centered */
 #div {
     display:flex;
     justify-content: space-around;
@@ -114,6 +120,7 @@ img:hover {
     justify-content: center;
 }
 
+/* Adjusted the two image elements nested in the <div> so as to make them smaller that the first image */
 #div img {
     width: 75%;
     height: 75%;
@@ -121,18 +128,22 @@ img:hover {
     justify-content: center;
 }
 
+/* Adjusted the margins for div section so that it would be properly centered on the page */
 #div p {
     margin-right: 25%;
 }
 
+/* Centered the text for the contact section */
 #contact-info {
     text-align: center;
 }
 
+/* Used variable for contact info text color */
 #contact-info a {
     color: var(--header-text)
 }
 
+/* Media query for page responsiveness for users with a larger viewport such as a computer screen or monitor */
 @media screen and (max-width: 980px) {
     header {
         width: 100%;
@@ -143,6 +154,7 @@ img:hover {
     }
 }
 
+/* Media query for page responsiveness for users with a smaller viewport such as a phone or tablet */
 @media screen and (max-width: 768px) {
     header {
         display: flex;
