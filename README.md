@@ -15,6 +15,7 @@ To use this page, click the links in the navigation bar to go directly to the co
 ## Credits
 
 Linear gradient background was created using code created at cssgradient.io
+
 Image grayscale hover effect was created with code sourced from stackoverflow user 'stefets' at https://stackoverflow.com/users/5531345/stefets
 
 ## License
