@@ -1,5 +1,7 @@
 # My-Professional-Portfolio
 
+![Webpage Image](/Users/Wesley/bootcamp/My-Professional-Portfolio/Screenshot 2024-06-10 at 10.47.15 AM.png)
+
 ## A portfolio webpage to showcase projects I have completed for potential employers. This page contains contact links to my email, phone number and Github profile for any potential employer to get in touch. The page also displays clickable image links to my projects so they can be viewed and interacted with.
 
 ## Installation
